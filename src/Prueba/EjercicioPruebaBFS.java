@@ -2,7 +2,7 @@ package Prueba;
 
 import java.util.*;
 
-public class EjercicioPrueba {
+public class EjercicioPruebaBFS {
     
     public static int resolverMatriz(List<List<String>> mapa) {
         int filas = mapa.size();
