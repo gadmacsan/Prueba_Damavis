@@ -69,7 +69,7 @@ public class EjercicioPrueba {
         mapa.add(Arrays.asList(".", ".", ".", ".", "#", ".", ".", "#", "."));
         mapa.add(Arrays.asList("#", ".", ".", ".", ".", ".", ".", ".", "."));
         mapa.add(Arrays.asList(".", "#", ".", ".", ".", ".", ".", "#", "."));
-        mapa.add(Arrays.asList(".", "#", ".", ".", ".", ".", ".", "#", "."));
+        mapa.add(Arrays.asList(".", "#", ".", ".", ".", ".", "#", "#", "."));
 
         int minPasos = resolverMatriz(mapa);
 
@@ -82,3 +82,5 @@ public class EjercicioPrueba {
         }
     }
 }
+
+
