@@ -70,14 +70,7 @@ public class EjercicioPruebaBacktracking {
         return minPasos;
     }
 
-    public static void imprimirmapa(List<List<String>> mapa) {
-        for (List<String> fila : mapa) {
-            for (String celda : fila) {
-                System.out.print(celda + " ");
-            }
-            System.out.println();
-        }
-    }
+  
 
     public static void main(String[] args) {
         List<List<String>> mapa = new ArrayList<>();
@@ -90,8 +83,6 @@ public class EjercicioPruebaBacktracking {
         int minPasos = resolverMatriz(mapa);
 
         if (minPasos != -1) {
-            System.out.println("Solucion encontrada:");
-            imprimirmapa(mapa);
             System.out.println("Numero minimo de pasos: " + minPasos);
         } else {
             System.out.println("No tiene solucion: -1");
